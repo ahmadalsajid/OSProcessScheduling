@@ -52,8 +52,6 @@ def round_robin():
     #    print("process {}-----> time {}".format(vector['id'],vector['time']))
 
     #######################################################################################
-    #calculate waiting time, turnaround time, response time, as waiting time and response time are same in this
-    # exercise , we skip the calculation of response time , and assume waiting time as response time
     waiting_time = []
     turnaround_time = []
     response_time = []
